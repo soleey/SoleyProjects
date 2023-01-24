@@ -3,6 +3,7 @@ package prozentualeerhoehung;
 public class ProzentualeErhoehung {
 
     public static void main (String []agrs) {
+        System.out.println("test");
         System.out.println("Soll: 3.69 Ist: " + erhoeheBetrag(2.46F, 50));
         System.out.println("Soll: 3.0 Ist: " + erhoeheBetrag(3,0));
         System.out.println("Soll: 0.0 Ist " + erhoeheBetrag( 0, 90));
